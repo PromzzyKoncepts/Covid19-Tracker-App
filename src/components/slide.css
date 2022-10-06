@@ -141,11 +141,9 @@
 
 @media screen and (max-width: 700px) {
   .wrapper {
-    margin: 5vh auto 5vh auto;
-    max-height: 90vh;
     width: 100%;
     min-width: 370px;
-    border-radius: 20px;
+    background-color: #35548B;
   }
 
   .grid {
@@ -162,5 +160,17 @@
 
   .search {
     width: 300px;
+    margin: 20px auto;
+    padding: 0px;
   }
+
+  .head {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+
 }

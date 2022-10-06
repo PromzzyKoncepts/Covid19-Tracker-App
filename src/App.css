@@ -186,4 +186,48 @@
     font-size: 20px;
     display: none;
   }
+
+  .back {
+    width: 25px;
+    float: right;
+    transform: translate(-40px, -35px);
+  }
+
+  .popup-container {
+    background-image: url(./assets/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+  }
+
+  .popup {
+    transform: translateY(7%);
+    background-color: #436ab2d5;
+    width: 87%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #1d1d1d;
+  }
+
+  .region {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .info:hover {
+    background: #1d1d1d;
+    padding: 6px 0;
+    transition: all 0.3s ease-in;
+  }
+
+  .title {
+    margin-bottom: 22px;
+    margin-top: 10px;
+  }
 }

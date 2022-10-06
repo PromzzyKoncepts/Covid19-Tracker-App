@@ -11,19 +11,19 @@ const Slide = () => (
       <Carousel.Item>
         <img src={slide1} className="d-block w-100" alt="Market ratings" />
         <Carousel.Caption>
-          <h3 style={{ fontSize: "4rem", color: "#fff" }}>Corona Virus</h3>
-          <p style={{ fontSize: "4rem", color: "#fff" }}>
+          <h3 className="head" style={{ fontSize: "4rem", color: "#fff" }}>
+            Corona Virus
+          </h3>
+          <p className="text" style={{ fontSize: "4rem", color: "#fff" }}>
             The World's Most Adverse Pandemic
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          src={slide2} alt="Ratings"
-          className="d-block w-100"
-        />
+        <img src={slide2} alt="Ratings" className="d-block w-100" />
         <Carousel.Caption>
           <h3
+            className="head"
             style={{
               fontSize: "3rem",
               color: "#fff",
@@ -33,7 +33,10 @@ const Slide = () => (
           >
             2019-2021
           </h3>
-          <p style={{ fontSize: "2rem", color: "#fff", background: "#4369B2" }}>
+          <p
+            className="text"
+            style={{ fontSize: "2rem", color: "#fff", background: "#4369B2" }}
+          >
             View Countries with most reported cases
           </p>
         </Carousel.Caption>
@@ -46,6 +49,7 @@ const Slide = () => (
         />
         <Carousel.Caption>
           <h3
+            className="head"
             style={{
               fontSize: "3rem",
               color: "#fff",

@@ -101,6 +101,30 @@
   margin-top: 10px;
 }
 
+.footer {
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footer-heading {
+  color: #4369B2;
+}
+
+.span {
+  color: #1d1d1d;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+
+
 /* the mobile Version */
 @media screen and (max-width: 768px) {
   .cards {

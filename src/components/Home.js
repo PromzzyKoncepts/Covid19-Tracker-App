@@ -6,6 +6,7 @@ import Search from "./search";
 import Apicontainer from "./ApiContainer";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "../redux/apicontainer";
+import Footer from "./Footer";
 
 const Home = () => {
 
@@ -17,11 +18,14 @@ const Home = () => {
     dispatch(fetchData());
     setCountries(data);
   }, [dispatch, data.length]);
-  return (<div className="wrapper">
+  return (
+    <div className="wrapper">
     <Slide />
     <Search data={data} setCountries={setCountries} />
     <Apicontainer countries={countries} />
-  </div>);
+    <Footer />
+    </div>
+  );
 };
 
 export default Home;

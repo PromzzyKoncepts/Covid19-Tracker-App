@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-  background-color: brown;
+  background-color: #1D1D1D;
 }
 
 .parent {
@@ -61,7 +61,7 @@
 .container {
   border: 1px solid rgb(255, 223, 237);
   color: rgb(255, 223, 237);
-  background-color: brown;
+  background-color: #4278dc;
   box-shadow: 2px 3px 5px 5px rgb(255, 223, 237, 0.75);
   padding: 1rem;
   margin: 20px;
@@ -130,8 +130,7 @@
 
 .search {
   width: 700px;
-  margin: 10px auto;
-  background-color: brown;
+  margin: 50px auto;
 }
 
 .center {

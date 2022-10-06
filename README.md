@@ -1,38 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid19 Tracker
 
-> Description the project.
-
+> A web app built with Covid-19-API that displays Covid 19 cases, deaths and recovery per country in the entire World
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
+- React
+- Redux
+- WebPack 
+- Covid19 API
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo](https://c0r0natracker.netlify.app/)
+
+## ScreenShots
+### Desktop screen
+<img src="./Screenshots/Homepage1.png" alt="Rockets" width="600px"/>
+<img src="./Screenshots/Homepage2.png" alt="Missions" width="600px"/>
+
+### Mobile Screen
+<img src="./Screenshots/HomepageMobile.png" alt="Profile" width="600px"/>
+<img src="./Screenshots/detailsMobile.png" alt="Profile" width="600px"/>
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Install node.js and npm.
+- Install Git.
+
 ### Setup
 
+- Clone the repository by running the following command in your terminal:
+    git clone https://github.com/PromzzyKoncepts/Covid19-Tracker-App.git
+    
+- Change your directory by by running the following command in your terminal:
+    cd space-hub
+
 ### Install
+- Install the dependencies by running `npm i` in your terminal
 
 ### Usage
 
-### Run tests
+- After all the dependencies are installed open the app by running npm start in your terminal
+
 
 ### Deployment
 
@@ -40,17 +57,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **PROMISE OKECHUKWU**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@promzzykoncepts](https://github.com/PromzzyKoncepts)
+- Twitter: [@pr0mzzy](https://twitter.com/prOmzzy)
+- LinkedIn: [promiseokechukwu](https://linkedin.com/in/promiseokechukwu)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,12 +76,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Nelson Sakwa on Behance.
+- Covid19 api from John Hopkins University CSSE
 - etc
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.

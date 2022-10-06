@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
 }
 
 .parent {
@@ -107,7 +107,7 @@
 }
 
 .h3:nth-child(odd) {
-  background-color: brown
+  background-color: brown;
 }
 
 .details-image {
@@ -143,7 +143,7 @@
   .wrapper {
     width: 100%;
     min-width: 370px;
-    background-color: #35548B;
+    background-color: #35548b;
   }
 
   .grid {
@@ -161,7 +161,7 @@
   .search {
     width: 300px;
     margin: 20px auto;
-    padding: 0px;
+    padding: 0;
   }
 
   .head {
@@ -171,6 +171,4 @@
   .text {
     font-size: 20px;
   }
-
-
 }

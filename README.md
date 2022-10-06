@@ -18,12 +18,12 @@
 
 ## ScreenShots
 ### Desktop screen
-<img src="./Screenshots/Homepage1.png" alt="Rockets" width="600px"/>
-<img src="./Screenshots/Homepage2.png" alt="Missions" width="600px"/>
+<img src="./Screenshots/Homepage1.png" alt="Rockets" width="500px"/>
+<img src="./Screenshots/Homepage2.png" alt="Missions" width="500px"/>
 
 ### Mobile Screen
-<img src="./Screenshots/HomepageMobile.png" alt="Profile" width="600px"/>
-<img src="./Screenshots/detailsMobile.png" alt="Profile" width="600px"/>
+<img src="./Screenshots/HomepageMobile.png" alt="Profile" width="500px"/>
+<img src="./Screenshots/detailsMobile.png" alt="Profile" width="500px"/>
 
 
 ## Getting Started

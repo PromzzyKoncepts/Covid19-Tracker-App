@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 // import CoinContainer from "./CoinContainer";
+import { useDispatch, useSelector } from 'react-redux';
 import Slide from './Slide';
 import './slide.css';
 import Search from './search';
 import Apicontainer from './ApiContainer';
-import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/apicontainer';
 import Footer from './Footer';
 

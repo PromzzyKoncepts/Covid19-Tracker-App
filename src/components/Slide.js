@@ -15,7 +15,7 @@ const Slide = () => (
             Corona Virus
           </h3>
           <p className="text" style={{ fontSize: '4rem', color: '#fff' }}>
-            The World's Most Adverse Pandemic
+            The Worlds Most Adverse Pandemic
           </p>
         </Carousel.Caption>
       </Carousel.Item>

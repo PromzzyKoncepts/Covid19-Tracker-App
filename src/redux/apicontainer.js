@@ -11,17 +11,15 @@ const DataSlice = createSlice({
   initialState: {
     data: [],
     loading: 'idle',
-    // id: uuidv4(),
   },
   extraReducers: {
     [fetchData.fulfilled]: (state, action) => {
-      const data = action.payload.slice(0, 40);
+      const data = action.payload.slice(3, 43);
       state.data = data.map((item) => ({
         ...item,
         id: uuidv4(),
       }));
       state.loading = 'fulfilled';
-      // state.id = id;
     },
   },
 });

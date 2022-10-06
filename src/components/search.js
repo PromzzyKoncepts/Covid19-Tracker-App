@@ -5,10 +5,7 @@ import './slide.css';
 
 const Search = ({ data, setCountries }) => {
   const handleSearch = (e) => {
-    console.log('we are here', e.target.value);
-    const searchResults = data.filter((item) =>
-      item.countryRegion.toLowerCase().includes(e.target.value.toLowerCase()));
-    console.log(searchResults, 'the results of the search');
+    const searchResults = data.filter((item) => item.countryRegion.toLowerCase().includes(e.target.value.toLowerCase()));
     setCountries(searchResults);
   };
   return (

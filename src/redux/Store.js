@@ -1,5 +1,5 @@
 import { applyMiddleware, configureStore } from '@reduxjs/toolkit';
-import thunk from "redux-thunk";
+import thunk from 'redux-thunk';
 import covidreducer from './apicontainer';
 
 const store = configureStore(
@@ -8,7 +8,7 @@ const store = configureStore(
       log: covidreducer,
     },
   },
-  applyMiddleware(thunk)
+  applyMiddleware(thunk),
 );
 
 export default store;

@@ -15,7 +15,7 @@ const DataSlice = createSlice({
   },
   extraReducers: {
     [fetchData.fulfilled]: (state, action) => {
-      const data = action.payload.slice(0, 60);
+      const data = action.payload.slice(0, 40);
       state.data = data.map((item) => {
         return {
           ...item,

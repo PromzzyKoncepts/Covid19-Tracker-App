@@ -1,6 +1,7 @@
-import { applyMiddleware, configureStore } from "@reduxjs/toolkit";
+import { applyMiddleware, configureStore } from '@reduxjs/toolkit';
 // import thunk from "redux-thunk";
-import covidreducer from './apicontainer'
+import covidreducer from './apicontainer';
+
 const store = configureStore(
   {
     reducer: {

@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import arrow from "../assets/arrow.png";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import arrow from '../assets/arrow.png';
 
 const Display = (item) => {
   const { countryRegion, combinedKey, uid } = item;
@@ -16,7 +16,10 @@ const Display = (item) => {
       </div>
 
       <h4 className="province">{combinedKey}</h4>
-      <p className="country">Country: {countryRegion}</p>
+      <p className="country">
+        Country:
+        {countryRegion}
+      </p>
     </div>
   );
 };

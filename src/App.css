@@ -11,7 +11,7 @@
 }
 
 .item {
-  background-color: #4369B2;
+  background-color: #4369b2;
   border-radius: 5px;
   padding: 5px;
   margin: 0;
@@ -76,7 +76,6 @@
   width: 45%;
   padding-top: 70px;
   padding-bottom: 30px;
-  padding-bottom: 30px;
   text-align: center;
   margin: auto;
   color: #fff;
@@ -99,4 +98,135 @@
 .title {
   margin-bottom: 22px;
   margin-top: 10px;
+}
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footer-heading {
+  color: #4369b2;
+}
+
+.span {
+  color: #1d1d1d;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+/* the mobile Version */
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    gap: 0;
+    text-align: end;
+    align-items: center;
+  }
+
+  .item {
+    background-color: #5077c0;
+    border-radius: 0;
+    padding: 5px;
+    margin: 0;
+    width: 50%;
+    height: 150px;
+  }
+
+  .item:nth-child(1),
+  .item:nth-child(4),
+  .item:nth-child(5),
+  .item:nth-child(8),
+  .item:nth-child(9),
+  .item:nth-child(12),
+  .item:nth-child(13),
+  .item:nth-child(16),
+  .item:nth-child(17),
+  .item:nth-child(20),
+  .item:nth-child(21),
+  .item:nth-child(24),
+  .item:nth-child(25) {
+    background-color: #3f62a6;
+  }
+
+  .lightColor {
+    background-color: #5077c0;
+  }
+
+  .darkColor {
+    background-color: #3f62a6;
+  }
+
+  .flag {
+    width: 60px;
+    height: 40px;
+  }
+
+  .head {
+    font-size: 20px;
+    display: none;
+  }
+
+  .text {
+    font-size: 20px;
+    display: none;
+  }
+
+  .back {
+    width: 25px;
+    float: right;
+    transform: translate(-40px, -35px);
+  }
+
+  .popup-container {
+    background-image: url(./assets/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* height: 100vh; */
+  }
+
+  .popup {
+    transform: translateY(7%);
+    background-color: #436ab2d5;
+    width: 87%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #1d1d1d;
+  }
+
+  .region {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .info:hover {
+    background: #1d1d1d;
+    padding: 6px 0;
+    transition: all 0.3s ease-in;
+  }
+
+  .title {
+    margin-bottom: 22px;
+    margin-top: 10px;
+  }
 }

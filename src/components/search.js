@@ -19,7 +19,7 @@ const Search = ({ data, setCountries }) => {
         <Form.Control
           aria-label="Large"
           aria-describedby="inputGroup-sizing-sm"
-          placeholder="Enter name of country"
+          placeholder="Country name"
         />
       </InputGroup>
     </div>

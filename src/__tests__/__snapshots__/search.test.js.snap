@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Component correctly 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="center input-group input-group-lg"
+    onChange={[Function]}
+  >
+    <span
+      className="input-group-text"
+      id="inputGroup-sizing-lg"
+    >
+      Search
+    </span>
+    <input
+      aria-describedby="inputGroup-sizing-sm"
+      aria-label="Large"
+      className="form-control"
+      placeholder="Country name"
+    />
+  </div>
+</div>
+`;

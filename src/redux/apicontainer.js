@@ -14,7 +14,7 @@ const DataSlice = createSlice({
   },
   extraReducers: {
     [fetchData.fulfilled]: (state, action) => {
-      const data = action.payload.slice(3, 43);
+      const data = action.payload.slice(250, 360);
       state.data = data.map((item) => ({
         ...item,
         id: uuidv4(),

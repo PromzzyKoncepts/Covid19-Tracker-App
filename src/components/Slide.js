@@ -19,8 +19,7 @@ const Slide = () => (
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://www.bloomberg.com/graphics/2020-coronavirus-cases-world-map/img/2020-coronavirus-cases-world-map-facebook.png?t=202011091543"
-          alt="Ratings"
+          src={slide2} alt="Ratings"
           className="d-block w-100"
         />
         <Carousel.Caption>
@@ -28,33 +27,37 @@ const Slide = () => (
             style={{
               fontSize: "3rem",
               color: "#fff",
-              background: "brown",
+              background: "#1d1d1d",
               margin: "0px",
             }}
           >
             2019-2021
           </h3>
-          <p style={{ fontSize: "2rem", color: "#fff", background: "brown" }}>
-            View Corona spread across World map
+          <p style={{ fontSize: "2rem", color: "#fff", background: "#4369B2" }}>
+            View Countries with most reported cases
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={slide2} alt="coin ratings" className="d-block w-100" />
+        <img
+          src="https://covid19.mathdro.id/api/og"
+          alt="coin ratings"
+          className="d-block w-100"
+        />
         <Carousel.Caption>
           <h3
             style={{
               fontSize: "3rem",
               color: "#fff",
-              background: "brown",
+              background: "#1d1d1d",
               margin: "0px",
             }}
           >
-            Corona Spread
+            Covid19 Global Statistics
           </h3>
-          <p style={{ fontSize: "2rem", color: "#fff", background: "brown" }}>
+          {/* <p style={{ fontSize: "2rem", color: "#fff", background: "#4369B2" }}>
             View Corona Virus track
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

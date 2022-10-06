@@ -1,7 +1,7 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Popup from "./components/Popup";
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Popup from './components/Popup';
 
 function App() {
   return (

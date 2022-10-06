@@ -1,25 +1,17 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchData } from "../redux/apicontainer";
+import React from "react";
 import Display from "./Display";
+// import { v4 as uuidv4 } from "uuid";
 
-const Apicontainer = () => {
-  const { data } = useSelector(((state) => state.log));
-  // console.log( state.data);
-  
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchData());
-  }, [dispatch]);
+const Apicontainer = ({ countries }) => {
 
   return (
     <div className="cards">
-      {data.map((item) => (
+      {countries && countries.map((item) => (
         <Display
-          // key={item.id}
+          key={item.id}
+          uid={item.uid}
           countryRegion={item.countryRegion}
           combinedKey={item.combinedKey}
-          // continent={item.continent}
         />
       ))}
     </div>

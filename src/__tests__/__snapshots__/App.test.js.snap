@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Component correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <div>
+    <div
+      className="carousel slide carousel-fade"
+      onKeyDown={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="carousel-indicators"
+      >
+        <button
+          aria-current={true}
+          aria-label="Slide 1"
+          className="active"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 2"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 3"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+      </div>
+      <div
+        className="carousel-inner"
+      >
+        <div
+          className="active carousel-item"
+        >
+          <img
+            alt="Market ratings"
+            className="d-block w-100"
+            src="slide1.jpg"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3
+              className="head"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": "4rem",
+                }
+              }
+            >
+              Corona Virus
+            </h3>
+            <p
+              className="text"
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": "4rem",
+                }
+              }
+            >
+              The Worlds Most Adverse Pandemic
+            </p>
+          </div>
+        </div>
+        <div
+          className="carousel-item"
+        >
+          <img
+            alt="Ratings"
+            className="d-block w-100"
+            src="slide2.jpg"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3
+              className="head"
+              style={
+                Object {
+                  "background": "#1d1d1d",
+                  "color": "#fff",
+                  "fontSize": "3rem",
+                  "margin": "0px",
+                }
+              }
+            >
+              2019-2021
+            </h3>
+            <p
+              className="text"
+              style={
+                Object {
+                  "background": "#4369B2",
+                  "color": "#fff",
+                  "fontSize": "2rem",
+                }
+              }
+            >
+              View Countries with most reported cases
+            </p>
+          </div>
+        </div>
+        <div
+          className="carousel-item"
+        >
+          <img
+            alt="coin ratings"
+            className="d-block w-100"
+            src="https://covid19.mathdro.id/api/og"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3
+              className="head"
+              style={
+                Object {
+                  "background": "#1d1d1d",
+                  "color": "#fff",
+                  "fontSize": "3rem",
+                  "margin": "0px",
+                }
+              }
+            >
+              Covid19 Global Statistics
+            </h3>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="search"
+  >
+    <div
+      className="center input-group input-group-lg"
+      onChange={[Function]}
+    >
+      <span
+        className="input-group-text"
+        id="inputGroup-sizing-lg"
+      >
+        Search
+      </span>
+      <input
+        aria-describedby="inputGroup-sizing-sm"
+        aria-label="Large"
+        className="form-control"
+        placeholder="Country name"
+      />
+    </div>
+  </div>
+  <div
+    className="cards"
+  />
+  <div
+    className="footer"
+  >
+    <h3
+      className="footer-heading"
+    >
+      Covid19
+       
+      <span
+        className="span"
+      >
+        Tracker
+      </span>
+    </h3>
+    <p
+      className="footer-text"
+    >
+      All Rights Reserved,
+    </p>
+    <p
+      className="footer-text"
+    >
+       © Promise Okechukwu
+    </p>
+  </div>
+</div>
+`;

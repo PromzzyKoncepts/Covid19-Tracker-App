@@ -1,0 +1,174 @@
+.grid {
+  display: grid;
+  background-color: #b02c27;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: #1d1d1d;
+}
+
+.parent {
+  width: 100%;
+  border: 1px solid rgb(255, 223, 237);
+  color: rgb(255, 223, 237);
+  box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  text-align: center;
+  height: 250px;
+}
+
+.icon {
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name {
+  text-align: center;
+  box-shadow: 2px 3px 4px rgba(219, 204, 204, 0.75);
+}
+
+.ath {
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid rgb(255, 223, 237);
+  color: rgb(255, 223, 237);
+  background-color: #4278dc;
+  box-shadow: 2px 3px 5px 5px rgb(255, 223, 237, 0.75);
+  padding: 1rem;
+  margin: 20px;
+  width: 100%;
+}
+
+.details-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 7rem;
+}
+
+.details-title .h1 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.details-title .close {
+  margin-left: 13rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.allDetails {
+  padding: 10px;
+}
+
+.h3 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  text-align: left;
+  height: 100px;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.h3:hover {
+  font-size: 20px;
+  box-shadow: 2px 3px 5px 5px rgb(255, 223, 237, 0.75);
+}
+
+.h3:nth-child(odd) {
+  background-color: brown;
+}
+
+.details-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.details-image img {
+  width: 60%;
+  padding-bottom: 10px;
+}
+
+.details-image .span {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 100%;
+    min-width: 370px;
+    background-color: #35548b;
+  }
+
+  .grid {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .details-title {
+    margin: 0;
+  }
+
+  .details-title .close {
+    margin: 0;
+  }
+
+  .search {
+    width: 300px;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  .head {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}

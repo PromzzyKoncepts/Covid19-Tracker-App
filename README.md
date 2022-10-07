@@ -16,6 +16,11 @@
 
 [Live Demo](https://c0r0natracker.netlify.app/)
 
+
+## Video Demo 
+
+[Video Demo](https://www.loom.com/share/27ba3ebbb2634175b0160631ee638f28)
+
 ## ScreenShots
 ### Desktop screen
 <img src="./Screenshots/Homepage1.png" alt="Rockets" width="500px"/>
